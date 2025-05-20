@@ -1,0 +1,40 @@
+/*
+  Use the following to include this CSS file
+  <link rel="stylesheet" href="styles1.css" />
+*/
+
+:root {
+  --vermelho-escuro: #2a0000;
+  --vermelho-medio: #b00020;
+  --vermelho-claro: #ff4b5c;
+  --vermelho-destaque: #ff6f61;
+  --cinza-claro: #d3d3d3;
+  --texto-principal: #ffffff;
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: var(--vermelho-escuro);
+  color: var(--texto-principal);
+}
+
+p {
+  color: var(--cinza-claro);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1, h2, h5 {
+  color: var(--vermelho-claro);
+  font-weight: 700;
+}
+
+a {
+  color: var(--vermelho-destaque);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--vermelho-medio);
+  text-decoration: underline;
+}
